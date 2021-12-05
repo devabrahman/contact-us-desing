@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Khula", sans-serif;
+}
+.hover {
+  transition: 0.2s;
+}
+.hover:hover {
+  color: #fa949d;
+}
+.contact_info {
+  background: #3e2093;
+  max-width: 40%;
+}
+section {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.contact_info {
+  min-height: 34rem;
+  position: relative;
+}
+.social_icon {
+  position: absolute;
+  left: 2rem;
+  bottom: 80px;
+}
+
+.bottum_style {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #fa949d;
+  right: 1px;
+  bottom: 1px;
+}
+.bottum_style::before {
+  position: absolute;
+  content: "";
+  width: 140px;
+  height: 140px;
+  background: #744edd;
+  border-radius: 30px;
+  top: -15px;
+  left: -15px;
+}
+
+button{
+  background: #744edd;
+  color: #fff;
+}
