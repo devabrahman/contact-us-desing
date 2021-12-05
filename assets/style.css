@@ -46,7 +46,19 @@ section {
   left: -15px;
 }
 
-button{
+button {
   background: #744edd;
   color: #fff;
+  transition: 0.2s;
+}
+button:hover {
+  color: #fa949d;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color:#744edd ;
+}
+input:focus label{
+  color: #3e2093;
 }
